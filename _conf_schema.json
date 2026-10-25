@@ -1,0 +1,9 @@
+{
+  "enabled": {"description": "启用请求布局规范", "type": "bool", "default": true},
+  "normalize_background_order": {"description": "将已识别的临时背景按长度规则、记忆、情绪、工作状态排序；未知消息作为边界保留", "type": "bool", "default": true},
+  "normalize_memory_sections": {"description": "天使之魂背景中将画像、记忆、笔记放在易变灵魂状态之前；无法完整识别则原样保留", "type": "bool", "default": true},
+  "stable_tool_order": {"description": "按名称稳定工具定义顺序，仅复制当前请求的工具列表", "type": "bool", "default": true},
+  "metrics_enabled": {"description": "记录无正文的数值统计，独立于其他插件统计，禁止相加当作账户总量", "type": "bool", "default": true},
+  "max_tracked_sessions": {"description": "最多保留多少个会话的内存指纹，不保存消息正文", "type": "int", "default": 128},
+  "fingerprint_ttl_seconds": {"description": "会话指纹有效期（秒）", "type": "int", "default": 1800}
+}

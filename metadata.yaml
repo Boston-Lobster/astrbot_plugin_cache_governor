@@ -1,0 +1,7 @@
+name: astrbot_plugin_cache_governor
+display_name: 缓存规范器
+desc: 稳定临时背景与工具顺序，审计请求前缀变化并记录输入缓存用量。
+version: v0.1.0
+author: Boston-Lobster
+repo: https://github.com/Boston-Lobster/astrbot_plugin_cache_governor
+astrbot_version: '>=4.29.1,<4.30.0'
